@@ -10,3 +10,4 @@ describe('Login com Campos em Branco', () => {
       cy.get('.erro-campos').should('be.visible').and('contain', 'Preencha todos os campos');
     });
   });
+  
